@@ -1,0 +1,20 @@
+package ArthematicOperations;
+
+public class ClassB extends ClassA{
+
+	int c =3;
+	int d = 4;
+ 
+	public ClassB(int c, int d) {
+		super(c, d);
+	}
+
+	public static void main(int[] args) {
+
+			System.out.println(add());		
+			
+
+				
+	}
+
+}

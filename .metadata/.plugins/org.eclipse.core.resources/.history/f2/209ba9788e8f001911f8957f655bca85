@@ -1,0 +1,27 @@
+package ArthematicOperations;
+
+public class ClassA {
+
+	static int a;
+    static int b;
+    
+    public ClassA(int c, int d){
+        a = c;
+        b = d; 
+    }
+	public static int add() {
+		return a + b;
+	}
+
+	public int sustract() {
+		return a - b;
+	}
+
+	public int multiply() {
+		return a/b;
+	}
+
+	public int divide() {
+		return a * b;
+	}
+}

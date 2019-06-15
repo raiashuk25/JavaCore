@@ -1,0 +1,27 @@
+package ArthematicOperations;
+
+public class ClassA {
+
+	float a;
+    float b;
+    
+    public ClassA(float c, float d){
+        a = c;
+        b = d; 
+    }
+	public float add() {
+		return a + b;
+	}
+
+	public float sustract() {
+		return a - b;
+	}
+
+	public float multiply() {
+		return a/b;
+	}
+
+	public float divide() {
+		return a * b;
+	}
+}

@@ -1,0 +1,17 @@
+package ArthematicOperations;
+
+public class ClassB extends ClassA{
+
+	float c =3;
+	float d = 4;
+ 
+	public ClassB(float c, float d) {
+		super(c, d);
+	}
+
+	public static void main(String[] args) {
+
+			System.out.println(add());								
+	}
+
+}

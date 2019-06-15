@@ -1,0 +1,26 @@
+package ArthematicOperations;
+
+public class ClassB extends ClassA{
+
+	float a;
+	float b;
+	public ClassB(float a, float b) {
+		super(a, b);
+	}
+ 
+
+	public static void main(String[] args) {
+
+			System.out.println(super.add());		
+			
+
+			System.out.println(super.sustract());		
+		
+
+			System.out.println(super.multiply());		
+		
+
+			System.out.println(super.divide());		
+	}
+
+}

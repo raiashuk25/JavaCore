@@ -1,0 +1,9 @@
+package ArthematicOperations;
+
+public interface ArthematicOperations {
+
+	public abstract int add();
+	public abstract int sustract();
+	public abstract int multiply();
+	public abstract int divide();
+}
